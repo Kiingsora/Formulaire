@@ -1,14 +1,17 @@
 body {
-    width: 90%;
+    font-family:fantasy;
+    color: #3f3f3f;
+    background-image: url("img/blue_bkgrd.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin: auto;
-    padding: 0;
-    background-color: #fff;
+    width: 90%;
 }
 
 .container {
     width: 100%;
-    margin: 0 auto;
-    padding: 20px;
+
 }
 
 h1 {
@@ -32,7 +35,6 @@ input[type="email"],
 input[type="tel"],
 textarea {
     width: 100%;
-    padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -56,21 +58,30 @@ input[type="checkbox"] {
 
 button {
     display: block;
-    width: 25%;
+    text-shadow: 5px 5px 5px #3f3f3f;
+    box-shadow: 1px 3px 0px #3f3f3f;
+    width: 20%;
     padding: 10px;
     background-color: #007BFF;
-    color: #fff;
+    color: #000000;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #00b3ca;
+    border-radius: 5px;
+}
+button:active {
+    color: white;
+    text-shadow: 5px 5px 5px #ffffff;
+    background-color: #013b42;
+    box-shadow: 0px 0px 0px #3f3f3f;
 }
 
+
 .caption {
-    text-align: center;
     margin-top: 20px;
     font-weight: bold;
 }

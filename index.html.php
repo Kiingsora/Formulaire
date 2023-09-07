@@ -12,15 +12,15 @@
         
         <form action="Traitement.php" method="post">
             <div class="form-groupe">
-                <label for="nom">Votre nom :</label>
+                <label for="nom">Nom et prénom :</label>
                 <input type="text" id="nom" name="nom" placeholder = "Vos nom et prénom"required>
             </div>
             <div class="form-group">
-                <label for="email">Votre mail :</label>
+                <label for="email"> Adresse mail :</label>
                 <input type="email" id="email" name="email" placeholder = "Votre adresse mail" required>
             </div>
             <div class="form-group">
-                <label for="tel">Votre numéro de téléphone :</label>
+                <label for="tel">Téléphone :</label>
                 <input type="tel" id="tel" name="tel" placeholder = "Indiquez votre numéro" required>
             </div>
             <div class="form-group">
@@ -36,9 +36,9 @@
                     <input type="checkbox" id="accepter" name="accepter" required> En soumettant ce formulaire, <span class = "bold">j'accepte la politique de confidentialité</span> du site.
                 </label>
             </div>
+            <p class="caption">(*) Champs obligatoires</p>
             <button type="submit">Valider</button>
         </form>
-        <p class="caption">(*) Champs obligatoires</p>
     </div>
 </body>
 </html>
