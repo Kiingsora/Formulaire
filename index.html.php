@@ -11,7 +11,7 @@
         <h1>Formulaire de Contact</h1>
         
         <form action="Traitement.php" method="post">
-            <div class="form-group">
+            <div class="form-groupe">
                 <label for="nom">Votre nom :</label>
                 <input type="text" id="nom" name="nom" placeholder = "Vos nom et prénom"required>
             </div>
