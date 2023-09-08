@@ -1,25 +1,33 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+}
 body {
+
     font-family:fantasy;
     color: #3f3f3f;
     background-image: url("img/blue_bkgrd.jpg");
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     margin: auto;
     width: 90%;
 }
 
 .container {
     width: 100%;
-
 }
 
 h1 {
     text-align: center;
+    margin-bottom: 50px ;
+    margin-top: 50px ;
+    padding: 50px;
+    border: 2px solid rgb(0, 174, 255);
+    background-color: rgba(179, 179, 179, 0.377);
+    border-radius: 10px;
+    width: fit-content;
 }
-
 form {
-    width: 100%;
+    height: 100%;   
     width: 100%;
     margin: 0 auto;
 }
@@ -36,8 +44,11 @@ input[type="tel"],
 textarea {
     width: 100%;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
+    margin-top: 20px;
+    border: 1px solid #02d9ff;
     border-radius: 5px;
+    height: 30px;
+
 }
 
 textarea {
